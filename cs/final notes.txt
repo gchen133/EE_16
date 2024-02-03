@@ -1,0 +1,71 @@
+All short answer no multiple choice 2 hours
+1 back and forth cheat sheet
+
+Fourier transformation definition, kNN, linear regression, complexity
+of mergesort, binary seach all of the sort and search algorithms
+basically
+
+linear search (can be on a list/array that isn't sorted)
+iteterates through through the list/array to find the target
+run time of O(N) because there are n elements in the input
+
+binary seach (works on a list/ array that is sorted (recommended))
+if target is less or more than 'high' or low' or 'mid and updates 
+those on if it is or not
+run time of O(log(N)) because you do not need to search through all
+of the elements
+
+merge sort runtime of O(NlogN) because input is halved repeatedly
+recursive algorithm that splits the inputted list in half and sorts 
+each half resursively using merge sort; reassemble after the imput
+is sorted
+we have to iterate through N items with the while loop and the log n
+comes from one branch of the created binary tree
+
+Prove mergesort is O(NlogN) runtime:
+ms(n) is the number of operations in mergesort
+- 2 smaller mergesorts with n/2 examples
+- a for loop requiring Cn operations for a constant C
+ms(n) <= 2ms(n/2) + Cn
+ms(n) <= 2^k ms(n/2^k) + Ckn for any k <= log(sub2)(n)
+
+Selection sort O(n^2) nested for loops to find smallest elemennt in 
+each scenario
+iterates through a list of elements to find the smallest one and sets
+aside in a sorted list (moves elements of unsorted list into new list)
+initiate the first item as the smallest and iterate through to find 
+if any are smaller
+
+quicksort - runtime of O(Nlog(N)) need to go through all recursive 
+branches 
+picks a random element as a pivot to move other elements around it
+once all of the elements that are smaller than the pivot are on the 
+left of it and the larger elements are on the right of it, select a 
+new pivot and continue
+
+quickselect - algorithm to find the kth smallest element in an unsorted
+list; runtime of O(N) only need to go through a single recursive branch
+sort the array on O(NlogN) time and find the L(k)
+can bring runtime down to O(n)
+similar to quicksort
+
+fourier transformations are also divide and conquer algorithms
+can use to decompose sound frequencies
+
+O = S + N
+SNR =||s||^2 / ||n||^2 or 
+E||s||^2 / E||n||^2
+noise is random which is why we use np.random.randn
+
+E means expectation of noise or signal 
+
+Signal is a vector
+Noise is also a vector 
+
+filtering
+
+kNN-classifies a data point based on how its neighbors are 
+categorized
+why do we need knn, what is it, how do we choose k,
+Machine learning models make predictions based on past data
+

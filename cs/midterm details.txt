@@ -1,0 +1,8 @@
+3 written questions
+write out the code
+will be from the homework
+
+practice sorting methods
+dynamic programming
+
+what is the output of the function?

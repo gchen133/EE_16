@@ -1,0 +1,27 @@
+git init (start in a new location)
+git push (data)
+git pull (pull)
+git commit (save changes basically)
+git clone URL
+git add 
+
+ls   :list all of files i directory
+cd "file_name" :change directory go to sum shit idk
+
+1. main.py
+2.
+
+person A creates empty repo (with pseudocode) on github
+person b clones repo to their machine
+each do their own sort 
+
+Person A pushes their repo to main
+in vscode, save
+git add :stage the changes of the files in local file into git
+git commit -m "message here" :creates a commit to be pushed
+git push :uploads to the online hub (github) ig idk i wanna die
+-A, -m are moddifiers to the command
+-A means all
+-m means message
+
+
